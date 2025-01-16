@@ -6,6 +6,7 @@
 			<style>
 				body {
 					color: red;
+					font-size: 1em;
 				}
 				
 				div {
@@ -22,11 +23,28 @@
 				.class1 {
 					color: purple;
 				}
+                .class2 {
+                    color: red;
+					font-size:2em
+                }
 				
 				div#div1 p.class1 {
 					color: teal;
 				}
 				
+				div#div1 p.class2 {
+					color:green;
+					font-size:1em;
+				}
+                div#div1 .class2 span {
+                    color: pink;
+                }
+
+                div#div1 span.class3 {
+                    color: pink;
+                    font-size: 2em;
+					text-decoration:underline;
+                }
 				div#div1 p {
 					color: black;
 				}
